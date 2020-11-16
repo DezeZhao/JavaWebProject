@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE configuration
+        PUBLIC "-//mybatis.org//DTD Config 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-config.dtd">
+<configuration>
+    <!--加载jdbc配置文件-->
+    <properties resource="jdbc_config.properties"/>
+    <environments default="mysql">
+        <!--配置mysql环境-->
+        <environment id="mysql">
+            <!--配置事务类型-->
+            <transactionManager type="JDBC"/>
+            <!--配置数据源-->
+            <dataSource type="POOLED">
+                <!--配置数据库的4个基本信息-->
+                <property name="driver" value="${jdbc.driver}"/>
+                <property name="url" value="${jdbc.url}"/>
+                <property name="username" value="${jdbc.username}"/>
+                <property name="password" value="${jdbc.password}"/>
+            </dataSource>
+        </environment>
+    </environments>
+
+    <!--引入配置文件 扫描包或者接口-->
+    <mappers>
+       <!-- <mapper class="com.zdz.dao.AccountDao"/>&lt;!&ndash;只扫描该接口&ndash;&gt;-->
+        <package name="com.zdz.dao"/><!--所有dao包下的接口全部扫描-->
+    </mappers>
+</configuration>

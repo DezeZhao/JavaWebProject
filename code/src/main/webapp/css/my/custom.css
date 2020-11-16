@@ -1,0 +1,153 @@
+.sweetAlert_self {
+    font-size: 20px;
+    height: 100px;
+    background: rgba(29, 29, 29, 0.87);
+    color: #FFFFFF;
+    /*border-radius: 10px;*/
+}
+
+a {
+    text-decoration: none;
+}
+
+a:hover {
+    text-underline: none;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.paddtop {
+    padding-top: 10px;
+}
+
+.search-btn {
+    outline: 0 none !important;
+}
+
+.search-input {
+    height: 40px;
+    border-bottom-left-radius: 20px;
+    border-top-left-radius: 20px;
+    border-color: #ac2925;
+}
+
+.search-input:focus {
+    border-color: rgba(172, 41, 37, 0.84);
+    box-shadow: 0 0 3px #af2d29;
+}
+
+.jx {
+    border-bottom: 2px solid #ffc900;
+    padding-top: 20px;
+    padding-bottom: 10px;
+}
+
+.company {
+    height: 40px;
+    background-color: #d9625f;
+    text-align: center;
+    line-height: 40px;
+    font-size: 8px;
+}
+
+.male_radio.active {
+    background: #337ab7;
+    color: white;
+    outline: 0 none !important;
+}
+
+.male_radio.active.focus {
+    background: #337ab7;
+    color: white;
+    outline: 0 none !important;
+}
+
+
+.female_radio.active {
+    background: #ec971f;
+    color: white;
+    outline: 0 none !important;
+}
+
+.female_radio.active.focus {
+    background: #ec971f;
+    color: white;
+    outline: 0 none !important;
+}
+
+.secret_radio.active {
+    background: gray;
+    color: white;
+    outline: 0 none !important;
+}
+
+.secret_radio.active.focus {
+    background: gray;
+    color: white;
+    outline: 0 none !important;
+}
+
+.hot-search {
+    padding-top: 3px;
+    padding-left: 4px;
+}
+
+.hot-search a {
+    font-size: 12px;
+    color: #fa5551;
+}
+
+.thumbnail:hover {
+    box-shadow: 0 0 6px #d9534f;
+}
+
+/*   .divider1 {
+       height: 20px;
+       width: 100%;
+       border-top: 1px solid rgba(206, 206, 206, 0.99);
+       margin-top: 20px;
+   }*/
+.panel-danger > .panel-heading {
+    background: #d9625f;
+}
+
+#mycart .navbar-default {
+    background: #d9534f;
+    border-radius: 0;
+}
+
+#cart_bottom > .col-md-2 {
+    font-size: 20px;
+    font-weight: 700;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#cart_bottom > .col-md-4 {
+    font-size: 20px;
+    font-weight: 700;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.settle_btn, .empty_btn {
+    outline: 0 none !important;
+}
+
+#detail > .col-md-5:first-child {
+    width: 440px;
+    border-right: #D3D3D3 2px solid;
+}
+
+#cart_bottom >.col-md-10 {
+    font-size: 20px;
+    font-weight: 700;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}

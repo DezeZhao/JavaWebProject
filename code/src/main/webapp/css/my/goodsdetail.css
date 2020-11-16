@@ -1,0 +1,271 @@
+.account-top-scroll {
+    width: 100%;
+    height: 60px;
+    background-color: #FC5E08;
+}
+
+.account-title {
+    float: left;
+    color: aliceblue;
+    width: 30%;
+    height: 100%;
+    font-size: 25px;
+    font-weight: bolder;
+}
+
+.account-title > ul {
+    padding-left: 200px;
+    padding-top: 20px;
+}
+
+.account-search {
+    height: 100%;
+    width: 70%;
+    float: left;
+}
+
+.search-btn {
+    text-align: center;
+    font-size: 14px;
+    line-height: 26px;
+    font-weight: bold;
+    width: 60px;
+    float: left;
+    border: 2px solid red;
+    border-left: 0px;
+    background-color: lightgrey;
+}
+
+.search-btn a {
+    text-decoration: none;
+}
+
+.account-search input {
+    float: left;
+    border-style: none;
+    height: 30px;
+    font-size: 14px;
+    padding-left: 3px;
+    border-right: 0px;
+    border: 2px solid red;
+    outline: 0;
+}
+
+.account-search input:focus {
+    border-color: red;
+}
+
+.product-detail-wrapper {
+    /*float:left;
+    margin-top: 20px;
+    width: 75%;
+    margin:20px 10px;*/
+}
+
+.product-detail-img {
+    float: left;
+    height: 600px;
+    width: 48%;
+    margin-top: 10px;
+    margin-left: 3%;
+    border: 0.5px solid #C8C8C8;
+    border-bottom: 0;
+    border-left: 0;
+    border-top: 0;
+}
+
+/*
+	.product-big-img {
+		height:430px ;
+		width: 100%;
+	}
+	.product-big-img img{
+		height: 400px;
+		width:400px;
+		border: 1px solid #EBEBEB;
+	}
+*/
+.product-small-img {
+    height: 120px;
+    width: 91%;
+    padding-left: 32px;
+    border: 2px solid #D8D8D8;
+    border-top: 0;
+    border-left: 0;
+    border-right: 0;
+    vertical-align: middle;
+    display: table-cell;
+}
+
+.product-small-img img {
+    height: 80px;
+    width: 80px;
+    margin: 10px auto;
+}
+
+.product-small-img img:hover {
+    border: 2px solid #EE5F0A;
+}
+
+.product-collect-share {
+    line-height: 40px;
+    width: 100%;
+    padding-left: 20px;
+}
+
+.product-collect-share i:hover {
+    color: coral;
+}
+
+.product-detail-others {
+    width: 48%;
+    height: 600px;
+    float: left;
+}
+
+.product-detail-intro {
+    padding: 10px 5px;
+    font-size: 17px;
+    font-weight: bold;
+    height: 50px;
+}
+
+.product-detail-price {
+    line-height: 50px;
+    margin-top: 5px;
+    padding-left: 5px;
+    background-color: #E9E6E6;
+}
+
+.product-detail-price span {
+    font-weight: bold;
+    font-size: 23px;
+    color: red;
+}
+
+.product-detail-item {
+    line-height: 50px;
+    margin-top: 5px;
+    padding-left: 5px;
+    align-items: center;
+}
+
+.product-detail-end {
+    margin: 170px 1%;
+}
+
+.leader-board {
+    float: left;
+    width: 16%;
+    padding-left: 3%;
+    margin: 30px 1%;
+}
+
+.leader-board-table {
+    width: 100%;
+
+    border: 1px solid #EBE9E9;
+    box-shadow:1px 1px 3px 1px rgba(0, 0, 0, 0.43);
+}
+
+.table-head {
+    line-height: 40px;
+    font-size: 18px;
+    text-align: center;
+    font-weight: bold;
+    color: white;
+    background-color:#d58512;
+}
+
+.picture-td {
+    height: 80px;
+    width: 40%;
+}
+
+.browse-pic {
+    height: 80px;
+    width: 80px;
+}
+
+.name-td {
+    padding-top: 8px;
+    padding-left: 10px;
+    vertical-align: top;
+}
+
+/*.table-row:hover {
+    border: 2px solid #D93C02;
+}*/
+
+.product-detail-end ul {
+    margin-left: 5%;
+    text-align: center;
+}
+
+.product-detail-end ul li {
+    float: left;
+    width: 160px;
+    margin: 20px;
+    line-height: 40px;
+    font-weight: bold;
+    font-size: 18px;
+    border: 2px solid #FB5300;
+}
+
+.product-detail-end ul li a {
+    color: black;
+}
+
+.product-detail-end ul li:hover {
+    background-color: #FB5300;
+}
+
+.product-detail-end ul li:hover a {
+    color: white;
+    text-decoration: none;
+}
+
+.box {
+    width: 400px;
+    height: 400px;
+    position: relative;
+    border: 1px solid #ccc;
+}
+
+.productImg-smallBox {
+    position: relative;
+}
+
+.productImg-bigBox {
+    width: 400px;
+    height: 400px;
+    border: 1px solid #ccc;
+    overflow: hidden;
+    position: absolute;
+    top: 0;
+    left: 405px;
+    display: none;
+}
+
+.big {
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.small {
+    height: 400px;
+    width: 400px;
+}
+
+.mask {
+    width: 200px;
+    height: 200px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: rgba(255, 0, 255, .4);
+    cursor: move;
+    transition: opacity 1s;
+    opacity: 0;
+}
